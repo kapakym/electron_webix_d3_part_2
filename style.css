@@ -1,0 +1,27 @@
+.head_win {
+    -webkit-app-region: drag;
+}
+
+/* Стиль графика */
+svg path{
+    /* Цвет обводки */
+    stroke: #666;
+    /* Без заливки */
+    fill: none;
+    /* Толщина линии обводки */
+    stroke-width: 1;
+}
+
+/* Стиль блока mycontent, в котором чертим график */
+#mycontent { 
+    /* Выравнивание текста по середине */
+    text-align: center;
+    /* Без скроллбаров */
+    overflow: none;
+    /* Бордюр  */
+    border: 1px solid black;
+    /* Цвет заливки фона блока */
+    background-color: antiquewhite;
+    /* Высота блока */
+    height: calc(100% - 2px);
+}
